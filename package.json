@@ -1,0 +1,19 @@
+{
+  "name": "cryptomons_backend",
+  "version": "1.0.0",
+  "description": "cryptomon backend",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.8.5",
+    "express": "^4.17.1",
+    "express-winston": "^4.0.2",
+    "winston": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "engines": {
+    "node": "11.4.0"
+  }
+}
